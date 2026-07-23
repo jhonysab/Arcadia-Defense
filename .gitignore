@@ -73,3 +73,7 @@ crashlytics-build.properties
 
 # VS Code settings directory
 .vscode/
+
+# Builds compilados (distribuidos via GitHub Releases)
+/[Bb]uild/
+/[Bb]uilds/
