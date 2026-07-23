@@ -8,7 +8,6 @@ Defenda Arcádia posicionando torres ao longo do caminho, encare ondas crescente
 
 <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-<img src="https://img.shields.io/badge/Aseprite-7D929E?style=for-the-badge&logo=aseprite&logoColor=white" />
 <img src="https://img.shields.io/badge/Plataforma-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 
 **[⬇️ Baixar e jogar](../../releases/latest)**
@@ -44,7 +43,7 @@ Foi onde aprendi que a parte difícil de um jogo não é fazer o personagem anda
 
 ## Minha contribuição
 
-Este foi um trabalho em grupo, e minha atuação foi ampla — programação, arte e áudio:
+Este foi um trabalho em grupo, e minha atuação foi ampla — programação, level design e áudio:
 
 **Programação**
 - **Mecânica do player** — movimentação, controle e sistema de vida
@@ -53,13 +52,13 @@ Este foi um trabalho em grupo, e minha atuação foi ampla — programação, ar
 - **Barra de vida** ([`HealthUI.cs`](Assets/Scripts/Managers/HealthUI.cs)) — código e arte, com interpolação `Lerp` para a barra descer suavemente em vez de saltar
 - **Menus e navegação** — fluxo entre menu principal, jogo, opções e game over
 
-**Arte e design**
-- Sprites dos personagens, inimigos e elementos de cenário (Aseprite)
-- Level design e estilização dos mapas dos 3 níveis
+**Design**
+- Level design e composição visual dos 3 mapas, montados a partir de bibliotecas de assets gratuitas
+- Arte da barra de vida
 - Roteiro e história do jogo
 
 **Áudio**
-- Trilha sonora original — incluindo *Ascensio Angelorum* e *O Sol se pôs em Arcádia*
+- Direção musical e integração da trilha — as faixas (*Ascensio Angelorum*, *O Sol se pôs em Arcádia*) foram geradas com ferramenta de IA de composição, e a curadoria, o corte e a implementação no `AudioManager` foram nossos
 
 Desenvolvido em conjunto com [@Zev07](https://github.com/Zev07) e demais colegas.
 
@@ -98,7 +97,9 @@ Assets/Scripts/
 
 ## Créditos
 
-Trilha sonora original composta para o projeto. Efeitos sonoros obtidos em bibliotecas de áudio livre. Projeto com finalidade **exclusivamente acadêmica**, sem qualquer intuito comercial.
+Os sprites de personagens, inimigos e cenário vêm de bibliotecas de assets gratuitas. As músicas da trilha foram geradas com ferramenta de IA de composição musical, e os efeitos sonoros vêm de bibliotecas de áudio livre. O trabalho autoral do projeto está na **programação, no level design e na composição visual** dos mapas.
+
+Projeto com finalidade **exclusivamente acadêmica**, sem qualquer intuito comercial.
 
 <br>
 
